@@ -50,7 +50,7 @@ export default function ProjectDetail() {
             <span className="text-[10px] font-mono text-[#6b6b6b]">
               ({String(projectIndex + 1).padStart(3, '0')})
             </span>
-            <span className="px-2.5 py-0.5 bg-[#0c0c0c] text-[#c8ff00] text-[10px] font-bold uppercase tracking-wider">
+            <span className="px-2.5 py-0.5 bg-[#0c0c0c] text-[#facc15] text-[10px] font-bold uppercase tracking-wider">
               {project.category}
             </span>
             {project.date && (

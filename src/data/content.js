@@ -1,8 +1,16 @@
 export const artist = {
   name: "Jiaying Gao",
-  title: "Dancer / Curator / Performance Artist",
+  title: "Curator / Dance Researcher / Cultural Strategist",
   email: "jiaying.gao@hotmail.com",
-  bio: `Jiaying Gao is a freelance dancer and curator based between China and the UK. She has a profound interest in notions of body, perception, collectivity, public sphere, technologies, and alternative education. Current research and projects advocate for an increase in visibility and fair representation of Asians in the British arts and culture industry as well as internationally through radical collaborative practices. Try to implement the concept of a dance museum from different technology forms the basis of this artistic inquiry as its audience is transported to and embedded within multiple environments.`,
+  bio: `Dr Jiaying Gao is a curator, dance researcher, and cultural strategist working at the intersection of international cultural curation and the creative industries. Her work focuses on the contemporary reinterpretation of Chinese culture, cross-cultural exchange, and innovative exhibition practices.
+
+She holds a PhD from the Institute for Creative and Cultural Entrepreneurship (ICCE) at Goldsmiths, University of London, and an MA in Curation and Collections from the University of the Arts London. Her research and practice span dance exhibitions, embodied archives, Chinese philosophical aesthetics, museum curation, and intercultural artistic projects. She is particularly interested in translating Chinese aesthetic thought, intangible cultural heritage, and embodied knowledge into contemporary exhibitions, public engagement, and international cultural dialogue.
+
+Dr Gao is a member of the European Network on Cultural Management and Policy (ENCATC) and the International Council of Museums (ICOM), and actively participates in international collaborations across museums, cultural policy, and the creative industries. She has taught arts management and curatorial studies within the ICCE programme at Goldsmiths and has served as a visiting tutor at the University of the Arts London since 2021.
+
+Her notable projects include the interdisciplinary exhibition Breath, the dance exhibition The Tales of Veils presented at the Humboldt Forum in Berlin, and Vapoured Script, an ongoing exploration of water calligraphy, embodied archives, and the ephemerality of performance.
+
+Currently, Dr Gao serves as Director of the International Food Museum, where she leads international cultural programming, cross-border artistic collaborations, exhibition development, and institutional partnerships. Her work explores the intersections between food culture, embodied experience, regional narratives, and museum practice, fostering new dialogues between heritage, creativity, and public engagement.`,
   profilePhoto: "/images/profile.jpg",
   logo: "/images/logo.png",
   heroImage: "/images/hero.jpg",
@@ -10,9 +18,9 @@ export const artist = {
 
 export const education = [
   {
-    institution: "Goldsmiths University of London",
-    period: "Sep 2020 – Sep 2024",
-    degree: "PhD Advanced Practice",
+    institution: "Goldsmiths, University of London",
+    period: "Jan 2021 – Mar 2026",
+    degree: "Doctor of Philosophy (PhD), Institute for Creative and Cultural Entrepreneurship (ICCE)\nResearch area: Dance Exhibition, Embodied Archives, Chinese Aesthetics, Curatorial Practice",
   },
   {
     institution: "University of Arts in London, UK",

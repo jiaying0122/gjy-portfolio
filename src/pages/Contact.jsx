@@ -109,7 +109,7 @@ export default function Contact() {
                   </div>
                   <button
                     type="submit"
-                    className="inline-flex items-center gap-2 px-6 py-3 bg-[#0c0c0c] text-[#c8ff00] text-xs font-bold uppercase tracking-[0.15em] hover:bg-[#222] transition-colors"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-[#0c0c0c] text-[#facc15] text-xs font-bold uppercase tracking-[0.15em] hover:bg-[#222] transition-colors"
                   >
                     Send Message
                     <ArrowUpRight className="w-3.5 h-3.5" />

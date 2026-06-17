@@ -37,9 +37,13 @@ export default function About() {
           <div className="lg:col-span-7 flex flex-col justify-center">
             <ScrollReveal delay={0.15}>
               <SectionLabel>Biography</SectionLabel>
-              <p className="text-sm leading-[1.75] text-[#0c0c0c] mb-10">
-                {artist.bio}
-              </p>
+              <div className="space-y-5 mb-10">
+                {artist.bio.split('\n\n').map((paragraph, i) => (
+                  <p key={i} className="text-sm leading-[1.75] text-[#0c0c0c]">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
             </ScrollReveal>
 
             <ScrollReveal delay={0.2}>
@@ -50,7 +54,7 @@ export default function About() {
                     <div key={edu.institution} className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
                       <div>
                         <h3 className="text-sm font-bold">{edu.institution}</h3>
-                        <p className="text-sm text-[#6b6b6b]">{edu.degree}</p>
+                        <p className="text-sm text-[#6b6b6b] whitespace-pre-line">{edu.degree}</p>
                       </div>
                       <span className="text-[10px] font-mono text-[#6b6b6b] shrink-0 tracking-wider">{edu.period}</span>
                     </div>

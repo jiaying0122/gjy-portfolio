@@ -48,7 +48,7 @@ export default function Navbar() {
                 to={link.path}
                 className={`relative text-[13px] font-medium tracking-wide transition-colors duration-200 ${
                   location.pathname === link.path
-                    ? 'text-[#c8ff00]'
+                    ? 'text-[#facc15]'
                     : 'text-white/70 hover:text-white'
                 }`}
               >
@@ -93,7 +93,7 @@ export default function Navbar() {
                     onClick={() => setMobileOpen(false)}
                     className={`text-3xl font-medium tracking-tight ${
                       location.pathname === link.path
-                        ? 'text-[#c8ff00]'
+                        ? 'text-[#facc15]'
                         : 'text-white/60'
                     }`}
                   >

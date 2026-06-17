@@ -31,7 +31,7 @@ function SectionLabel({ children, className = '' }) {
 
 function YearBadge({ year }) {
   return (
-    <span className="inline-block bg-[#0c0c0c] text-[#c8ff00] text-[11px] font-bold px-2 py-0.5 tracking-wider">
+    <span className="inline-block bg-[#0c0c0c] text-[#facc15] text-[11px] font-bold px-2 py-0.5 tracking-wider">
       {year}
     </span>
   )
@@ -49,26 +49,30 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative h-screen w-full overflow-hidden bg-[#0c0c0c]">
-        <div className="absolute inset-0">
-          <img
+      <section className="relative min-h-screen w-full flex flex-col bg-[#40698d] overflow-hidden">
+        {/* Portrait image — contained so the full photo is visible */}
+        <div className="flex-grow flex items-center justify-center pt-20 sm:pt-24 pb-8 px-6 sm:px-10">
+          <motion.img
             src={artist.heroImage}
-            alt="Hero"
-            className="w-full h-full object-cover opacity-80"
+            alt="Jiaying Gao"
+            className="max-h-[72vh] sm:max-h-[76vh] w-auto max-w-full object-contain opacity-95 shadow-2xl"
+            initial={{ opacity: 0, scale: 0.98 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0c0c0c] via-[#0c0c0c]/30 to-transparent" />
         </div>
 
-        <div className="relative z-10 h-full flex flex-col justify-end pb-24 sm:pb-32 px-6 sm:px-10 lg:px-16 max-w-[1400px] mx-auto">
+        {/* Text sits below the image */}
+        <div className="relative z-10 pb-16 sm:pb-20 px-6 sm:px-10 lg:px-16 max-w-[1400px] mx-auto w-full">
           <motion.div
-            initial={{ opacity: 0, y: 60 }}
+            initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ duration: 1, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
           >
-            <p className="text-[#c8ff00] text-xs font-mono uppercase tracking-[0.25em] mb-5">
+            <p className="text-[#facc15] text-xs font-mono uppercase tracking-[0.25em] mb-4">
               {artist.title}
             </p>
-            <h1 className="text-white text-6xl sm:text-8xl lg:text-9xl font-bold tracking-tighter leading-[0.82] mb-8">
+            <h1 className="text-white text-5xl sm:text-7xl lg:text-8xl font-bold tracking-tighter leading-[0.85]">
               {artist.name.split(' ')[0]}
               <br />
               <span className="text-white/80">{artist.name.split(' ')[1]}</span>
@@ -113,7 +117,7 @@ export default function Home() {
             </ScrollReveal>
             <ScrollReveal delay={0.2}>
               <p className="text-base sm:text-lg lg:text-xl leading-[1.65] text-[#0c0c0c] font-medium tracking-tight mb-6">
-                {artist.bio.slice(0, 180)}...
+                Dance is not only what I perform — it is how I think, curate, and remember. I create dance exhibitions where bodies, objects, memory, and atmosphere meet, exploring how performance can be felt, archived, and shared beyond the stage through movement, Chinese aesthetic thinking, and embodied encounters.
               </p>
             </ScrollReveal>
             <ScrollReveal delay={0.25}>
@@ -124,7 +128,7 @@ export default function Home() {
                 <span className="px-5 py-2.5 bg-[#0c0c0c] text-white text-xs font-bold uppercase tracking-[0.1em]">
                   About Me
                 </span>
-                <span className="w-9 h-9 bg-[#c8ff00] flex items-center justify-center">
+                <span className="w-9 h-9 bg-[#facc15] flex items-center justify-center">
                   <ArrowUpRight className="w-4 h-4 text-[#0c0c0c]" />
                 </span>
               </Link>
@@ -195,7 +199,7 @@ export default function Home() {
       </section>
 
       {/* Yellow Portfolio Highlights Block */}
-      <section className="bg-[#c8ff00] px-6 sm:px-10 lg:px-16 py-16 sm:py-24">
+      <section className="bg-[#facc15] px-6 sm:px-10 lg:px-16 py-16 sm:py-24">
         <div className="max-w-[1400px] mx-auto">
           {/* Header */}
           <div className="text-center mb-10">
@@ -260,7 +264,7 @@ export default function Home() {
               </p>
               <Link
                 to="/contact"
-                className="inline-flex items-center px-6 py-3 bg-[#0c0c0c] text-[#c8ff00] text-xs font-bold uppercase tracking-[0.15em] hover:bg-[#222] transition-colors"
+                className="inline-flex items-center px-6 py-3 bg-[#0c0c0c] text-[#facc15] text-xs font-bold uppercase tracking-[0.15em] hover:bg-[#222] transition-colors"
               >
                 Get in Touch
               </Link>

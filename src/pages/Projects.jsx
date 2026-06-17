@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowUpRight } from 'lucide-react'
 import ScrollReveal from '../components/ScrollReveal'
 import { projects } from '../data/content'
 
@@ -16,7 +15,7 @@ function SectionLabel({ children }) {
 
 function YearBadge({ year }) {
   return (
-    <span className="inline-block bg-[#0c0c0c] text-[#c8ff00] text-[11px] font-bold px-2 py-0.5 tracking-wider">
+    <span className="inline-block bg-[#0c0c0c] text-[#facc15] text-[11px] font-bold px-2 py-0.5 tracking-wider">
       {year}
     </span>
   )
@@ -55,7 +54,7 @@ export default function Projects() {
                 onClick={() => setActiveCategory(cat)}
                 className={`px-3.5 py-1.5 text-[10px] font-bold tracking-[0.1em] uppercase border transition-all duration-200 ${
                   activeCategory === cat
-                    ? 'bg-[#0c0c0c] text-[#c8ff00] border-[#0c0c0c]'
+                    ? 'bg-[#0c0c0c] text-[#facc15] border-[#0c0c0c]'
                     : 'bg-white text-[#6b6b6b] border-[#e5e5e5] hover:border-[#0c0c0c] hover:text-[#0c0c0c]'
                 }`}
               >

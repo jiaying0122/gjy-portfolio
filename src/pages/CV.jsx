@@ -34,7 +34,7 @@ export default function CV() {
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1">
                   <div>
                     <h3 className="text-sm font-bold">{edu.institution}</h3>
-                    <p className="text-sm text-[#6b6b6b]">{edu.degree}</p>
+                    <p className="text-sm text-[#6b6b6b] whitespace-pre-line">{edu.degree}</p>
                   </div>
                   <span className="text-[10px] font-mono text-[#6b6b6b] shrink-0 tracking-wider">{edu.period}</span>
                 </div>
