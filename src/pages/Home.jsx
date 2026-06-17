@@ -49,30 +49,26 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative min-h-screen w-full flex flex-col bg-[#40698d] overflow-hidden">
-        {/* Portrait image — contained so the full photo is visible */}
-        <div className="flex-grow flex items-center justify-center pt-20 sm:pt-24 pb-8 px-6 sm:px-10">
-          <motion.img
+      <section className="relative h-screen w-full overflow-hidden bg-[#0c0c0c]">
+        <div className="absolute inset-0">
+          <img
             src={artist.heroImage}
-            alt="Jiaying Gao"
-            className="max-h-[72vh] sm:max-h-[76vh] w-auto max-w-full object-contain opacity-95 shadow-2xl"
-            initial={{ opacity: 0, scale: 0.98 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+            alt="Hero"
+            className="w-full h-full object-cover opacity-80"
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0c0c0c] via-[#0c0c0c]/30 to-transparent" />
         </div>
 
-        {/* Text sits below the image */}
-        <div className="relative z-10 pb-16 sm:pb-20 px-6 sm:px-10 lg:px-16 max-w-[1400px] mx-auto w-full">
+        <div className="relative z-10 h-full flex flex-col justify-end pb-24 sm:pb-32 px-6 sm:px-10 lg:px-16 max-w-[1400px] mx-auto">
           <motion.div
-            initial={{ opacity: 0, y: 40 }}
+            initial={{ opacity: 0, y: 60 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ duration: 1, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
           >
-            <p className="text-[#facc15] text-xs font-mono uppercase tracking-[0.25em] mb-4">
+            <p className="text-[#facc15] text-xs font-mono uppercase tracking-[0.25em] mb-5">
               {artist.title}
             </p>
-            <h1 className="text-white text-5xl sm:text-7xl lg:text-8xl font-bold tracking-tighter leading-[0.85]">
+            <h1 className="text-white text-6xl sm:text-8xl lg:text-9xl font-bold tracking-tighter leading-[0.82] mb-8">
               {artist.name.split(' ')[0]}
               <br />
               <span className="text-white/80">{artist.name.split(' ')[1]}</span>
