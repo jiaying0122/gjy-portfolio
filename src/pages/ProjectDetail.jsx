@@ -12,6 +12,22 @@ function SectionLabel({ children }) {
   )
 }
 
+function getYouTubeEmbedUrl(url) {
+  try {
+    const parsed = new URL(url)
+    if (parsed.hostname.includes('youtube.com')) {
+      const videoId = parsed.searchParams.get('v')
+      if (videoId) return `https://www.youtube.com/embed/${videoId}`
+    }
+    if (parsed.hostname.includes('youtu.be')) {
+      return `https://www.youtube.com/embed${parsed.pathname}`
+    }
+  } catch {
+    return null
+  }
+  return null
+}
+
 export default function ProjectDetail() {
   const { id } = useParams()
   const project = projects.find((p) => p.id === id)
@@ -98,20 +114,33 @@ export default function ProjectDetail() {
             <SectionLabel>Video</SectionLabel>
           </ScrollReveal>
           <div className="space-y-5">
-            {project.videos.map((video, i) => (
-              <ScrollReveal key={i} delay={i * 0.1}>
-                <div className="aspect-video bg-[#0c0c0c] overflow-hidden">
-                  <video
-                    controls
-                    className="w-full h-full"
-                    poster={project.images[0]}
-                    preload="metadata"
-                  >
-                    <source src={video} type="video/mp4" />
-                  </video>
-                </div>
-              </ScrollReveal>
-            ))}
+            {project.videos.map((video, i) => {
+              const youtubeEmbed = getYouTubeEmbedUrl(video)
+              return (
+                <ScrollReveal key={i} delay={i * 0.1}>
+                  <div className="aspect-video bg-[#0c0c0c] overflow-hidden">
+                    {youtubeEmbed ? (
+                      <iframe
+                        src={youtubeEmbed}
+                        title={`${project.name} video ${i + 1}`}
+                        className="w-full h-full"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    ) : (
+                      <video
+                        controls
+                        className="w-full h-full"
+                        poster={project.images[0]}
+                        preload="metadata"
+                      >
+                        <source src={video} type="video/mp4" />
+                      </video>
+                    )}
+                  </div>
+                </ScrollReveal>
+              )
+            })}
           </div>
         </section>
       )}

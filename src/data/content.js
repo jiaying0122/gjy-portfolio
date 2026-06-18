@@ -62,7 +62,7 @@ Part performance, part exhibition, part social encounter, Vapour Script proposes
 
 What remains is not the permanence of the mark, but the resonance of its disappearance.`,
     images: [
-      "/images/home/05b9ab_863416922a284911be76141c932af4c8~mv2.jpg",
+      "/images/update/update1.jpg",
       "/images/home/05b9ab_00ed1b91ae6a480c9c166fb9192ebd79~mv2.jpg",
       "/images/home/05b9ab_ac37c1948d70492cac7eea1bd823b8d1~mv2.jpg",
     ],
@@ -84,9 +84,18 @@ Working across painting, photography, video, sculpture, and installation, the ex
 
 Jiaying Gao served as Assistant Curator, contributing to curatorial research, exhibition development, artist coordination, and the project's cross-cultural interpretive framework.`,
     images: [
-      "/images/home/05b9ab_6082b9e29dab4781b81a5ef3ba9cfeee~mv2.jpg",
-      "/images/home/05b9ab_dee04f13116a4a669ee60f541c26dad5~mv2.jpg",
-      "/images/home/05b9ab_812eb70e7b0e40889050ba33fc780132~mv2.jpg",
+      "/images/projects/echoing-voice/home.jpg",
+      "/images/projects/echoing-voice/2_1600_3000_gif.jpg",
+      "/images/projects/echoing-voice/2_1600_3000_gif (1).jpg",
+      "/images/projects/echoing-voice/2_1600_3000_gif (2).jpg",
+      "/images/projects/echoing-voice/2_1600_3000_gif (3).jpg",
+      "/images/projects/echoing-voice/2_1600_3000_gif (4).jpg",
+      "/images/projects/echoing-voice/2_1600_3000_gif (5).jpg",
+      "/images/projects/echoing-voice/2_1600_3000_gif (6).jpg",
+      "/images/projects/echoing-voice/2_1600_3000_gif (7).jpg",
+      "/images/projects/echoing-voice/2_1600_3000_gif (8).jpg",
+      "/images/projects/echoing-voice/2_1600_3000_gif (9).jpg",
+      "/images/projects/echoing-voice/3_1600_3000_gif.jpg",
     ],
   },
   {
@@ -108,7 +117,7 @@ As a continuation of Gao's curatorial research, HuXi / Breath extended the quest
 
 The work received media attention during the Edinburgh Festival Fringe, including reviews and features from Our Culture, TRACS / Traditional Dance Forum of Scotland, and Chinese media platforms.`,
     images: [
-      "/images/projects/huxi/1.JPG",
+      "/images/projects/huxi/home.jpg",
       "/images/projects/huxi/38f95fc3e6308c708d2b097804d31d73.JPG",
       "/images/projects/huxi/4a7d76d7582099a9160d79009e152ecd.JPG",
       "/images/projects/huxi/8975849e659ad63a13ed3a711d7aa5f0.JPG",
@@ -117,14 +126,13 @@ The work received media attention during the Edinburgh Festival Fringe, includin
       "/images/projects/huxi/IMG_9717.JPG",
       "/images/projects/huxi/IMG_9718.jpg",
       "/images/projects/huxi/b632a8d74f9d7e3548a44c963bd9b226.JPG",
-      "/images/projects/huxi/e726a7997b0bd79184f0fe2af4c190dd_copy.JPG",
       "/images/projects/huxi/e8b35c100b6093ed982cd834ec7d3986.JPG",
       "/images/projects/huxi/jiti.JPG",
       "/images/projects/huxi/kid.JPG",
       "/images/projects/huxi/longfei.JPG",
       "/images/projects/huxi/su.JPG",
       "/images/projects/huxi/集体向上看.JPG",
-      "/images/projects/huxi/龙飞凤舞.JPG",
+      "/images/projects/huxi/casting.png",
     ],
   },
   {
@@ -160,6 +168,9 @@ Through this exhibition, the gap between score and archive becomes not a problem
       "/images/projects/kinesthetic-imagination/b512f55ff3f896c3a2c70b8a96cdf4.jpg",
       "/images/projects/kinesthetic-imagination/e069c9adb9b0317652542e82049028.jpg",
       "/images/projects/kinesthetic-imagination/ec7c3c16a7d16bdd6ca24700fac65c.jpg",
+      "/images/projects/kinesthetic-imagination/05b9ab_6082b9e29dab4781b81a5ef3ba9cfeee~mv2.jpg",
+      "/images/projects/kinesthetic-imagination/05b9ab_dee04f13116a4a669ee60f541c26dad5~mv2.jpg",
+      "/images/projects/kinesthetic-imagination/05b9ab_812eb70e7b0e40889050ba33fc780132~mv2.jpg",
     ],
   },
   {
@@ -181,6 +192,7 @@ Developed as part of Gao's wider PhD practice on Qi-based dance exhibitions, The
 
 Situated within the context of museum intervention and critical exhibition practice, the project contributes to discussions on how ethnological museums might move beyond fixed systems of display. By bringing performance to the foreground, Gao repositions dance as a form of cultural interpretation, allowing objects to be encountered not only as historical evidence, but as living carriers of movement, memory and relational meaning.`,
     images: [
+      "/images/projects/tailes-of-veils/home.png",
       "/images/projects/tailes-of-veils/8D8A8454.jpg",
       "/images/projects/tailes-of-veils/8D8A8464.jpg",
       "/images/projects/tailes-of-veils/IMG_2577.JPG",
@@ -201,7 +213,6 @@ Situated within the context of museum intervention and critical exhibition pract
     ],
     videos: [
       "/videos/tales-of-veils/long-version.mp4",
-      "/videos/tales-of-veils/humboldt-forum.mp4",
     ],
   },
   {
@@ -221,15 +232,13 @@ As audiences move through the installation, listening becomes both an auditory a
 
 Gao's curatorial approach frames the installation as a space of attentive encounter, where sound, light and memory come together to hold the emotional traces of a global crisis. By bringing children's voices into a shared spatial environment, the project transforms listening into a relational practice: one that asks audiences not only to hear, but to stay with the vulnerability, imagination and resilience carried in each voice.`,
     images: [
+      "/images/projects/if-you-listen/home.png",
       "/images/home/05b9ab_73a63f0e7daf4e4a80313310d174b16f~mv2.jpg",
       "/images/home/05b9ab_ff249c4c25d446a2a76b0a99a820d3b9~mv2.jpg",
       "/images/home/05b9ab_3d184c15b52f436fb8cb26b9b737d7f2~mv2.jpg",
       "/images/home/05b9ab_0e8c059c7f2046f2b83b00f91c056a7b~mv2.jpg",
       "/images/home/05b9ab_93d9809647ed482f918b4fc052031cb7~mv2.jpg",
       "/images/home/05b9ab_3bac5033906c406f83829f206e861489~mv2.jpg",
-      "/images/home/05b9ab_4619293efa3b4ce5adda92b0475a0c70~mv2.jpg",
-      "/images/home/05b9ab_fe3702ea8c5d4e4490991f828698e8f0~mv2.jpg",
-      "/images/home/05b9ab_a5f2c1a391b648aaaf84ee9b5fef0c77~mv2.jpg",
       "/images/home/05b9ab_9514187b02a043f381919502e080428e~mv2.jpg",
       "/images/home/05b9ab_1003bd9b0e7e47a6a4fa1e97170f21dd~mv2.jpg",
       "/images/home/05b9ab_57c275998b4e469ca605fea410e2f4ee~mv2.jpg",
@@ -241,6 +250,7 @@ Gao's curatorial approach frames the installation as a space of attentive encoun
       "/images/home/05b9ab_0c315fe3d3eb475a8ee270953e76e744~mv2.jpg",
       "/images/home/05b9ab_d1c4dedad54c4914ac4b0d075705bfeb~mv2.jpg",
       "/images/home/05b9ab_a0509025acca42d8b0890239d9d607d5~mv2.jpg",
+      "/images/projects/if-you-listen/poster.png",
     ],
   },
   {
@@ -299,6 +309,20 @@ The museum's intimate vaults played a central role in shaping the work. Their lo
 
 Premiered on Chinese National Day, Rave Arcade was later featured by CGTN Europe, which described the project as spanning continents, cultures and 3,500 years of history.`,
     images: [
+      "/images/projects/rave-arcade/05b9ab_b123bfdc47dd4c58a012569112f1e059~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_9db4894730ed4885a6d257f454f2785b~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_ac37c1948d70492cac7eea1bd823b8d1~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_93fbe2573c404c43badd7bd54194b318~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_85d684c30fa44881bbf8f1f8a5ae0ed5~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_75ce7fe12a7f455eac8133074b19812a~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_ac6b0eb4fc6646649701bf4553a5ebf2~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_2148febf8cbe4d06b48e8634bedc6800~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_e332ba73c86544d4b2d60838c71a0fe4~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_3b3f66cf56004701bb25f6d4c0485510~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_c3086c2d1b394abcbcfc435c0cee6f8a~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_6d224dc056214745b73c40ed110ca4b3~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_bc7b1cead0dc42c29730e7df82616fa8~mv2.jpg",
+      "/images/projects/rave-arcade/05b9ab_5c3ca9a82a7a470396b1e461a1598f2e~mv2.jpg",
       "/images/projects/rave-arcade/00b59ac119084598c8d7927187eeef.jpg",
       "/images/projects/rave-arcade/02a9bb5897ede8848d399bd024c6d8.jpg",
       "/images/projects/rave-arcade/1ca398c17d91b0b5f0b65bc133412e.jpg",
@@ -330,7 +354,7 @@ As a performance artist in the project, Jiaying Gao contributed to the live acti
 
 Through its layered relationship between photograph, body, story and disappearance, Mishandled Archive proposes the archive as something unstable and alive: not only a place of preservation, but a site of reactivation, speculation and choreographic encounter.`,
     images: [
-      "/images/projects/mishandled-archive/0273b0034d14da9f385f68a3f00c0d.jpg",
+      "/images/projects/mishandled-archive/home.png",
       "/images/projects/mishandled-archive/1c08915ded25aeece26b0a8f6fcb03.jpg",
       "/images/projects/mishandled-archive/c148458e72b9597cd650ae385fc58b.jpg",
       "/images/projects/mishandled-archive/ed386d653ffd08d1a7fdb8a699c45f.jpg",
@@ -341,6 +365,7 @@ Through its layered relationship between photograph, body, story and disappearan
       "/images/projects/mishandled-archive/img_c6_300276-ed1-pr.jpg",
       "/images/projects/mishandled-archive/img_c6_300319-ed1-wb.jpg",
       "/images/projects/mishandled-archive/img_c6_300358-ed1-pr.jpg",
+      "/images/projects/mishandled-archive/0273b0034d14da9f385f68a3f00c0d.jpg",
     ],
   },
   {
@@ -361,22 +386,7 @@ Perceptible Eon will host talks that explore and break the existing boundaries o
 Several artists used a random act as an introduction — throwing flints to create sparks under the dark night of the Jurassic coast, showing the moment of human origin with instinct, fighting against nothingness.
 
 Curated by: Jiaying Gao`,
-    images: [
-      "/images/home/05b9ab_b123bfdc47dd4c58a012569112f1e059~mv2.jpg",
-      "/images/home/05b9ab_9db4894730ed4885a6d257f454f2785b~mv2.jpg",
-      "/images/home/05b9ab_ac37c1948d70492cac7eea1bd823b8d1~mv2.jpg",
-      "/images/home/05b9ab_93fbe2573c404c43badd7bd54194b318~mv2.jpg",
-      "/images/home/05b9ab_85d684c30fa44881bbf8f1f8a5ae0ed5~mv2.jpg",
-      "/images/home/05b9ab_75ce7fe12a7f455eac8133074b19812a~mv2.jpg",
-      "/images/home/05b9ab_ac6b0eb4fc6646649701bf4553a5ebf2~mv2.jpg",
-      "/images/home/05b9ab_2148febf8cbe4d06b48e8634bedc6800~mv2.jpg",
-      "/images/home/05b9ab_e332ba73c86544d4b2d60838c71a0fe4~mv2.jpg",
-      "/images/home/05b9ab_3b3f66cf56004701bb25f6d4c0485510~mv2.jpg",
-      "/images/home/05b9ab_c3086c2d1b394abcbcfc435c0cee6f8a~mv2.jpg",
-      "/images/home/05b9ab_6d224dc056214745b73c40ed110ca4b3~mv2.jpg",
-      "/images/home/05b9ab_bc7b1cead0dc42c29730e7df82616fa8~mv2.jpg",
-      "/images/home/05b9ab_5c3ca9a82a7a470396b1e461a1598f2e~mv2.jpg",
-    ],
+    images: [],
   },
   {
     id: "stories-garments",
@@ -395,10 +405,14 @@ As the performer, Gao activates the digital field through movement, allowing the
 
 Sound Composition: Krasimir Kostadinov (Gatof)`,
     images: [
-      "/images/home/05b9ab_5c6affafdd904647a56c821b76f3627b~mv2.jpg",
-      "/images/home/05b9ab_606a16409ead4ecda8eba8654d0cbbbb~mv2.jpg",
-      "/images/home/05b9ab_642c8e17414f4db6b8848970ef2075f7~mv2.jpg",
-      "/images/home/05b9ab_6e3fcc5204d14b00b0618fada5a4805b~mv2.jpg",
+      "/images/projects/stories-garments/1.jpg",
+      "/images/projects/stories-garments/2.jpg",
+      "/images/projects/stories-garments/3.jpg",
+      "/images/projects/stories-garments/4.jpg",
+      "/images/projects/stories-garments/5.jpg",
+    ],
+    videos: [
+      "https://www.youtube.com/watch?v=o8uUxmvlTmc&t=4s",
     ],
   },
   {
